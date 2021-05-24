@@ -1,0 +1,43 @@
+.card {
+	margin-right: 30px;
+
+	&:last-child {
+		margin: 0;
+	}
+
+	&__card {
+		padding: 20px 25px 16px;
+		background: #ffffff;
+		box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 15px;
+	}
+
+	&__img {
+		width: 205px;
+		height: 198px;
+		margin-bottom: 23px;
+	}
+
+	&__name {
+		margin-bottom: 10px;
+	}
+
+	&__price-wrap {
+		display: flex;
+		margin-bottom: 22px;
+	}
+
+	&__price {
+		margin-right: 20px;
+		color: #ff0000;
+	}
+
+	&__discount {
+		color: #808080;
+		text-decoration: line-through;
+	}
+
+	&__btn-wrap {
+		display: flex;
+	}
+}
